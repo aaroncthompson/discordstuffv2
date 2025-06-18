@@ -19,3 +19,11 @@ In a prior version, the bot would detect changes to the Event and update the cha
 Anyone seeking to make use of this bot should be aware of two hardcoded values:
 1. The category under which private channels are created in (see `channel.parent` in events/guildScheduledEventCreate.js), and
 2. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
+
+## Non-technical explanation for planners
+Replace reference to "#rsvp" (`announcementChannel`) as appropriate.
+
+**Planners**: Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", go through the form.
+* A channel will automatically be created for the event where you'll be pinged.
+* A notification will be posted to #⁠rsvp.
+* You can right click and edit the event as you please - the ⁠#rsvp post will reflect all changes. You can also right click and cancel the event - this will remove the #⁠rsvp post and delete the channel. Irreversible - if you just want to put the event on ice without deleting the channel, set the start date to 2030 or something.
