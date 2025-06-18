@@ -1,6 +1,7 @@
 # discordstuffv2
-new version of my bot incorporating Discord's native Events functionality
-https://github.com/aaroncthompson/discordstuffv2
+new version of my bot incorporating Discord's [native Events functionality](https://support.discord.com/hc/en-us/articles/4409494125719-Scheduled-Events)
+
+Github: https://github.com/aaroncthompson/discordstuffv2
 
 ## What it does
 When users create an Event in Discord, my bot will automatically do the following:
