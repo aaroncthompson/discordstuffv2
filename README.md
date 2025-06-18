@@ -15,7 +15,7 @@ When users click "Interested" in the Event, the bot will assign them the role, a
 
 When the Event ends, all users with the role will be individually added to the text channel and the role will be deleted to avoid Discord's hard limit of 250 roles per server. The Event's creator will remain untouched. Information regarding the Event will be removed from the datastore - the Event is considered to no longer be managed by the bot. This does mean users will no longer be able to gain or give up access to the channel via self-service - if the Event's creator still has access (ie they did not remove the role from themselves prior to the Event's conclusion), they can add/remove them.
 
-Note that Discord has additional hard limits at 500 channels and 100 Events. If channel creation fails, the bot will output an error with `console.error(`Failed to handle new event creation (${eventId}):`, err)`.
+Note that Discord has additional hard limits at 500 channels and 100 Events. If channel creation fails for any reason, the bot will output an error with `Failed to handle new event creation (${eventId}):` and `err`.
 
 In a prior version, the bot would detect changes to the Event and update the channel accordingly - however, due to Discord's limitations on channel renaming, this functionality was removed.
 
