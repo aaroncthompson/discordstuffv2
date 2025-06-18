@@ -17,9 +17,10 @@ When the Event ends, all users with the role will be individually added to the t
 
 In a prior version, the bot would detect changes to the Event and update the channel accordingly - however, due to Discord's limitations on channel renaming, this functionality was removed.
 
-Anyone seeking to make use of this bot should be aware of two hardcoded values:
-1. The category under which private channels are created in (see `channel.parent` in events/guildScheduledEventCreate.js), and
-2. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
+Anyone seeking to make use of this bot should be aware of three hardcoded values:
+1. Your bot's token in .env,
+2. The category under which private channels are created in (see `channel.parent` in events/guildScheduledEventCreate.js), and
+3. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
 
 ## Less technical explanation for event planners
 **Planners**: Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", go through the form.
