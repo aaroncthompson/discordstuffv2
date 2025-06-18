@@ -13,7 +13,7 @@ When users create an Event in Discord, my bot will automatically do the followin
 
 When users click "Interested" in the Event, the bot will assign them the role, and when users interact again with the Event to mark that they are no longer interested, the bot will remove the role.
 
-When the Event ends, all users with the role will be individually added to the text channel and the role will be deleted to avoid Discord's hard limit of 250 roles per server. The Event's creator will remain untouched. Information regarding the Event will be removed from the datastore - the Event is considered to no longer be managed by the bot. This does mean users will no longer be able to gain entry to the channel via self-service - if the Event's creator still has access (ie they did not remove the role from themselves prior to the Event's conclusion), they can add them.
+When the Event ends, all users with the role will be individually added to the text channel and the role will be deleted to avoid Discord's hard limit of 250 roles per server. The Event's creator will remain untouched. Information regarding the Event will be removed from the datastore - the Event is considered to no longer be managed by the bot. This does mean users will no longer be able to gain or give up access to the channel via self-service - if the Event's creator still has access (ie they did not remove the role from themselves prior to the Event's conclusion), they can add/remove them.
 
 Note that Discord has additional hard limits at 500 channels and 100 Events.
 
