@@ -15,6 +15,8 @@ When users click "Interested" in the Event, the bot will assign them the role, a
 
 When the Event ends, all users with the role will be individually added to the text channel and the role will be deleted to avoid Discord's hard limit of 250 roles per server. Information regarding the Event will be removed from the datastore - the Event is considered to no longer be managed by the bot.
 
+Note that Discord has additional hard limits at 500 channels and 100 Events.
+
 In a prior version, the bot would detect changes to the Event and update the channel accordingly - however, due to Discord's limitations on channel renaming, this functionality was removed.
 
 Anyone seeking to make use of this bot should be aware of three hardcoded values:
