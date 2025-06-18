@@ -20,7 +20,7 @@ Anyone seeking to make use of this bot should be aware of two hardcoded values:
 1. The category under which private channels are created in (see `channel.parent` in events/guildScheduledEventCreate.js), and
 2. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
 
-## Non-technical explanation for event planners
+## Less technical explanation for event planners
 **Planners**: Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", go through the form.
 * A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel.
 * A notification will be posted to #⁠rsvp.
