@@ -22,6 +22,6 @@ Anyone seeking to make use of this bot should be aware of two hardcoded values:
 
 ## Non-technical explanation for event planners
 **Planners**: Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", go through the form.
-* A channel will automatically be created for the event where you'll be pinged.
+* A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel.
 * A notification will be posted to #⁠rsvp.
 * You can right click and edit the event as you please - the ⁠#rsvp post will reflect all changes. You can also right click and cancel the event - this will remove the #⁠rsvp post and delete the channel. Irreversible - if you just want to put the event on ice without deleting the channel, set the start date to 2030 or something.
