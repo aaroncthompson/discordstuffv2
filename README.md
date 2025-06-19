@@ -17,14 +17,14 @@ When the Event ends, all users with the role will be individually added to the t
 
 Note that Discord has additional hard limits at 500 channels and 100 Events. If channel creation fails for any reason, the bot will output to the console an error with `Failed to handle new event creation for (${eventId}):` and `err`.
 
-In a prior version, the bot would detect changes to the Event and update the channel accordingly - however, due to Discord's limitations on channel renaming, this functionality was removed.
+In a prior version, the bot would detect changes to the Event and update the channel accordingly - however, due to Discord's [limitations on channel renaming](https://support.discord.com/hc/en-us/community/posts/20757990318999-Increase-renaming-channel-API), I have removed this functionality - consideration was made with regards to introduction of retry logic in conjunction with detection of further Event changes as well as any manual channel name changes, but I believe the layer of complexity this would introduce would negatively impact user experience.
 
 Anyone seeking to make use of this bot should be aware of three hardcoded values:
 1. Your bot's token in .env,
 2. The category under which private channels are created in (see `channel.parent` in events/guildScheduledEventCreate.js), and
 3. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
 
-## Less technical explanation for event planners
+## Less technical explanation for your event planners
 **Planners**: Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", go through the form.
 * A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel.
 * A notification will be posted to #⁠rsvp.
