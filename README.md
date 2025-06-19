@@ -19,7 +19,7 @@ Note that Discord has additional hard limits at 500 channels and 100 Events. If 
 
 In a prior version, the bot would detect changes to the Event and update the channel accordingly - however, due to Discord's [limitations on channel renaming](https://support.discord.com/hc/en-us/community/posts/20757990318999-Increase-renaming-channel-API), I have removed this functionality - consideration was made with regards to introduction of retry logic in conjunction with detection of further Event changes as well as any manual channel name changes, but I believe the layer of complexity this would introduce would negatively impact user experience.
 
-Anyone seeking to make use of this bot should be aware of three hardcoded values:
+Anyone seeking to make use of this bot should be aware of three hardcoded values which must be changed:
 1. Your bot's token in .env,
 2. The category under which private channels are created in (see `channel.parent` in events/guildScheduledEventCreate.js), and
 3. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
