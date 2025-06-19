@@ -27,7 +27,7 @@ Anyone seeking to make use of this bot should be aware of three hardcoded values
 ## Less technical explanation for your event planners
 Click on the Events button at the top left (look for a little calendar icon), click "Create Event", and complete the form. The following will automatically happen:
 * Your event will be added to the Events list - you can right-click it to add it to a calendar app, edit it, and cancel (delete) it.
-* A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel, including the ability to rename or delete it (cancelling an event will also automatically delete the associated channel). A link to this channel will also be added to your event's description.
+* A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel, including the ability to rename or delete it (cancelling an event will also automatically delete its channel). A link to this channel will also be added to your event's description.
 * The event will be posted to #⁠rsvp - potential attendees can click "Interested" either here or via the same Events button you used. Any edits to the event will be reflected in this post.
 
 When the event ends, everyone who had access before will keep access, but the Event will be removed from the Events list. The post in #rsvp will update to show that the event is over and it will no longer be possible to "attend" it.
