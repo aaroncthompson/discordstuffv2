@@ -25,8 +25,9 @@ Anyone seeking to make use of this bot should be aware of three hardcoded values
 3. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
 
 ## Less technical explanation for your event planners
-**Planners**: Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", and complete the form.
+Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", and complete the form. The following will automatically happen:
 * A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel, including the ability to rename it. A link to this channel will also be added to your Event's description.
 * The event will be posted to #⁠rsvp - potential attendees can interact with the event either here or via the same Events button you used.
-* You can right click and edit the event as you please - the ⁠#rsvp post will reflect all changes. You can also right click and cancel the event - this will remove the #⁠rsvp post and delete the channel.
-  * Note: this is immediate and irreversible! If you just want to put the event on ice without deleting the channel, set the start date to sometime far in the future.
+
+You can right click and edit the event as you please - the ⁠#rsvp post will reflect all changes. You can also right click and cancel the event - this will remove the #⁠rsvp post and delete the channel.
+* Note: this is immediate and irreversible! If you just want to put the event on ice without deleting the channel, set the start date to sometime far in the future.
