@@ -25,9 +25,9 @@ Anyone seeking to make use of this bot should be aware of three hardcoded values
 3. The ID of the channel to which notification posts are made in (see `announcementChannel` in events/guildScheduledEventCreate.js).
 
 ## Less technical explanation for your event planners
-Click on the Events button at the top left (should say "2 Events" for desktop, on mobile it's a little calendar icon - see attached screenshot), click "Create Event", and complete the form. The following will automatically happen:
-* A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel, including the ability to rename it. A link to this channel will also be added to your Event's description.
-* The event will be posted to #⁠rsvp - potential attendees can interact with the event either here or via the same Events button you used.
+Click on the Events button at the top left (look for a little calendar icon), click "Create Event", and complete the form. The following will automatically happen:
+* Your event will be added to the Events list - you can right-click it to add it to a calendar app, edit it, and cancel (delete) it (will also delete the channel!).
+* A channel will automatically be created for the event where you'll be pinged - you have complete control over this channel, including the ability to rename it. A link to this channel will also be added to your event's description.
+* The event will be posted to #⁠rsvp - potential attendees can click "Interested" either here or via the same Events button you used. Any edits to the event will be reflected in this post.
 
-You can right click and edit the event as you please - the ⁠#rsvp post will reflect all changes. You can also right click and cancel the event - this will remove the #⁠rsvp post and delete the channel.
-* Note: this is immediate and irreversible! If you just want to put the event on ice without deleting the channel, set the start date to sometime far in the future.
+When the event ends, everyone who had access before will keep access, but the Event will be removed from the Events list. The post in #rsvp will update to show that the event is over and it will no longer be possible to "attend" it.
