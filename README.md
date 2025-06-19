@@ -8,6 +8,8 @@ Github: https://github.com/aaroncthompson/discordstuffv2
 ## Required permissions
 WIP as I'm still figuring out scope as well as exactly how fine-tuned Discord permissions can get. I'll throw in a [permissions integer](https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525) for convenience here (along with a bullet point list of required / suggested manual adjustments) once I can confidently assert that I'm following least-privilege.
 
+https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525#permission-hierarchy
+
 ## What this code does
 When users create an Event in Discord, a Discord bot running this code will automatically do the following:
 1. Create a role named after the Scheduled Events's unique ID,
