@@ -6,7 +6,7 @@ Github: https://github.com/aaroncthompson/discordstuffv2
 **DISCLAIMER**: This is a random repository from some guy with code that may or may not do what that guy claims it does. It would be extremely foolish to hand out the permissions that bots running this code would require.
 
 ## Required permissions
-WIP as I'm still figuring out scope as well as exactly how fine-tuned Discord permissions can get. I'll throw in a [permissions integer](https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525) for convenience here (along with a bullet point list of required / suggested manual adjustments) once I can confidently assert that I'm following least-privilege.
+WIP as I'm still figuring out scope as well as exactly how fine-tuned Discord permissions can get (my initial impression: not very). I'll throw in a [permissions integer](https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525) for convenience here (along with a bullet point list of required / suggested manual adjustments) once I can confidently assert that I'm following least-privilege.
 
 [Permissions hierarchy](https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525#permission-hierarchy)
 
