@@ -6,7 +6,7 @@ Github: https://github.com/aaroncthompson/discordstuffv2
 **DISCLAIMER**: This is a random repository from some guy with code that may or may not do what that guy claims it does. It would be extremely foolish to hand out the permissions that bots running this code would require.
 
 ## Required permissions
-WIP as I'm still figuring out exactly how fine-tuned Discord permissions can get, but I can tell you it sure as heck doesn't need Administrator. I'll throw in a OAuth2 URL for convenience.
+WIP as I'm still figuring out scope as well as exactly how fine-tuned Discord permissions can get. I'll throw in an OAuth2 URL for convenience once I can confidently assert that I'm following least-privilege.
 
 ## What this code does
 When users create an Event in Discord, a Discord bot running this code will automatically do the following:
