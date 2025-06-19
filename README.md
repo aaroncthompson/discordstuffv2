@@ -35,5 +35,5 @@ When the event ends, everyone who had access before will keep access, but the Ev
 ## Planned features
 * Servers moving from my last iteration of this solution ([newdiscordstuff](https://github.com/aaroncthompson/newdiscordstuff)) may be suffering from role bloat. To address this, I am planning on introducing functions to:
   1. (Definitely) Identify roles created by bots running "newdiscordstuff" and delete any that are not explicitly listed within the permissions sets of any currently existing text channels.
-    * If I am very ~~lazy~~ cautious, I will instead have the bot output a list of said roles to enable Administrators to review, then manually remove them.
+     * If I am very ~~lazy~~ cautious, I will instead have the bot output a list of said roles to enable Administrators to review, then manually remove them.
   3. (Maybe) Allow users with administrative access to ad-hoc apply the "role → role-having users" `GuildScheduledEventStatus.Completed` logic mentioned above to specific channels, perhaps via a slash command such as `/roletousers`.
