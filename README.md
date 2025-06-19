@@ -3,7 +3,7 @@ New version of my "Events" solution incorporating Discord's [native Events funct
 
 Github: https://github.com/aaroncthompson/discordstuffv2
 
-DISCLAIMER: This is a random repository from some guy with code that may or may not do what that guy claims it does. It would be extremely foolish to hand out the permissions that bots running this code require.
+**DISCLAIMER**: This is a random repository from some guy with code that may or may not do what that guy claims it does. It would be extremely foolish to hand out the permissions that bots running this code would require.
 
 ## Required permissions
 WIP, but I can tell you it sure as heck doesn't need Administrator.
