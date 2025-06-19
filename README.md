@@ -1,9 +1,14 @@
 # discordstuffv2
-new version of my bot incorporating Discord's [native Events functionality](https://support.discord.com/hc/en-us/articles/4409494125719-Scheduled-Events)
+New version of my "Events" solution incorporating Discord's [native Events functionality](https://support.discord.com/hc/en-us/articles/4409494125719-Scheduled-Events).
 
 Github: https://github.com/aaroncthompson/discordstuffv2
 
-## What it does
+DISCLAIMER: This is a random repository from some guy with code that may or may not do what that guy claims it does. It would be extremely foolish to hand out the permissions that bots running this code require.
+
+## Required permissions
+WIP, but I can tell you it sure as heck doesn't need Administrator.
+
+## What this code does
 When users create an Event in Discord, a Discord bot running this code will automatically do the following:
 1. Create a role named after the Scheduled Events's unique ID,
 2. Create a private text channel named after the Event's start date and name allowing only users with that role to see or post in that channel,
