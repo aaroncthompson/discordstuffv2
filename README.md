@@ -13,7 +13,7 @@ Guild-level: Bots running this code require `Manage Roles` ([permissions integer
 * `View Channel` and `Manage Channels` in your event channel category (`channel.parent`)
   `View Channel` and `Send Messages` in your bot log channel (`outputChannel`)
 
-**[Do not grant this bot Administrator permissions.](https://en.wikipedia.org/wiki/Principle_of_least_privilege)**
+**[Do not grant bots Administrator permissions.](https://en.wikipedia.org/wiki/Principle_of_least_privilege)**
 
 ## What this code does
 When users create an Event in Discord, a Discord bot running this code will automatically do the following:
