@@ -6,12 +6,14 @@ Github: https://github.com/aaroncthompson/discordstuffv2
 **DISCLAIMER**: This code is from a personal project and is provided without any guarantees. While effort has been made to minimize any potential damage it can do to a server, I strongly urge you to take a look at the code yourself and adapt it for your own customized solution.
 
 ## Required permissions
-Developer portal: When creating your bot, you must enable the privileged "Server Members Intent" in order to allow your bot to fetch users and assign/remove roles from them.
+[Developer portal](https://discord.com/developers/applications): When creating your bot, you must enable the privileged "Server Members Intent" in order to allow your bot to fetch users and assign/remove roles from them.
 
 Guild-level: Bots running this code require `Manage Roles` ([permissions integer](https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525) 268435456) in order to create, assign, and remove roles. While this is a "global" (in the context of your Discord server) permission, Discord makes use of a [permissions hierarchy](https://discord.com/developers/docs/topics/permissions?utm_source=syndication&pubDate=20250525#permission-hierarchy) to limit bots' influence to roles below their own highest role - I would recommend creating a "Bot" role and placing it at the very bottom. From there, your bot will need to be given the following:
 * `View Channel` and `Send Messages` in your event announcement channel (`announcementChannel`)
 * `View Channel` and `Manage Channels` in your event channel category (`channel.parent`)
   `View Channel` and `Send Messages` in your bot log channel (`outputChannel`)
+
+**[Do not grant this bot Administrator permissions.](https://en.wikipedia.org/wiki/Principle_of_least_privilege)**
 
 ## What this code does
 When users create an Event in Discord, a Discord bot running this code will automatically do the following:
