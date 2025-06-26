@@ -3,7 +3,7 @@ New version of my "Events" solution incorporating Discord's [native Events funct
 
 Github: https://github.com/aaroncthompson/discordstuffv2
 
-**DISCLAIMER**: This code is from a personal project and provided without any guarantees. While effort has been made to minimize any potential damage it can do to a server, I strongly urge you to take a look at the code yourself and adapt it for your own customized solution.
+**DISCLAIMER**: This code is from a personal project and is provided without any guarantees. While effort has been made to minimize any potential damage it can do to a server, I strongly urge you to take a look at the code yourself and adapt it for your own customized solution.
 
 ## Required permissions
 Developer portal: When creating your bot, you must enable the privileged "Server Members Intent" in order to allow your bot to fetch users and assign/remove roles from them.
